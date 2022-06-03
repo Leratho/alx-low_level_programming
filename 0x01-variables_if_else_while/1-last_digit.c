@@ -3,21 +3,29 @@
 #include <stdio.h>
 
 /**
- * main - all codes
- * Description: Proogarm that prits alphabets in lowercase followeed by a  line
+ * main - Entry Point
  *
- * Return: 0
- *
+ * Return: Always (Success)
  */
-
 int main(void)
 {
-	char alphabets
-	ch =  '\n';
-	for (alphabets = 'A' ; alphabets <<= 'Z'; alphabets++)
-	{
-		putchar(alphabets);
-	}
-	putchar(ch);
-	return (0);
+	int n;
+	int lastd;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	lastd = n % 10;
+	if (lastd > 5)
+{
+	printf("Last digit of %d is %d is greater than 5\n", n, lastd);
+}
+else if (lastd == 5)
+{
+	printf("Last digit of %d is %d and is 0\n", n, lastd);
+}
+else if (lastd < 6 && lastd != 0)
+{
+	printf("Last digit of %d is %d and is less than 6 and is not 0\n", n, lastd);
+}
+return (0);
 }
