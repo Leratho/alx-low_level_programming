@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * main -Entry Point
+ * main - Entry Point
+ *
+ * Description: Return the required results
  *
  * Return: 0
  */
