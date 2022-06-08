@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints lowercase alphabet
  * Description: prints lowercase alphabets
- * Return: void
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
@@ -14,8 +14,8 @@ void print_alphabet(void)
 	n = 'a';
 	while (n <= 'z')
 	{
-		putchar(n);
+		_putchar(n);
 		n++;
 	}
-	putchar ('\n');
+	_putchar ('\n');
 }
