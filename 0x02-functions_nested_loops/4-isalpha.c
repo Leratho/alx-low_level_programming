@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha _ Return 1 if c is a letter lowercase or uppercase
+ * _isalpha - Return 1 if c is a letter lowercase or uppercase
  *
  * Description: Checks for alphabetic character
  *
