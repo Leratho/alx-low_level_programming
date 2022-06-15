@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * main - print_alphabet_x10, print alphabet
+ * print_alphabet_x10 - Prints alohabet 10 times
  *
- * Description: prints the alphabet 10 times
- *
- * Return: Always 0 (Success)
-*/
+ * Return: 0 success
+ */
+
 void print_alphabet_x10(void)
 {
-	int bet;
+	int j;
+	int i;
 
-	for (bet = 'a' ; bet <= 'z' ; bet++)
+	for (i = 0; i < 10; i++)
 	{
-		_putchar (bet);
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+		_putchar('\n');
 	}
-	_putchar ('\n');
-
 }
