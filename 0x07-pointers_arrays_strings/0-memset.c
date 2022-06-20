@@ -5,14 +5,15 @@
  * @s: start point of string to change
  * @b: value that will replace
  * @n: number of bytes to change
- * Return: changed pointer
+ * Return: s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *p = s;
+	unsigned int i;
 
-	for (; n != 0; p++, n--)
-		*p = b;
+	for (i = 0; n > 0 ; i++, n--)
+	{
+		s[i] = b;
+	}
 	return (s);
 }
