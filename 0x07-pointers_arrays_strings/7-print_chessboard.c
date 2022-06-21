@@ -11,6 +11,7 @@ void print_chessboard(char (*a)[8])
 {
 	int subC, primC = 0;
 	while (primC < 8)
+
 	{
 		subC = 0;
 		while (subC < 8)
