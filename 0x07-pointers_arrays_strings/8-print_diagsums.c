@@ -7,6 +7,7 @@
  * @size: size of matrix
  */
 void print_diagsums(int *a, int size)
+
 {
 	int lfrg = 0, rglf = size - 1;
 	int valuelfrg = 0, valuerglf = 0;
